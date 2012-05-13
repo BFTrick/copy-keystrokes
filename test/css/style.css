@@ -1,17 +1,11 @@
 /* CSS Document */
 
 body{
-	/* IE10 */ 
 	background-image: -ms-radial-gradient(center, circle farthest-side, #FAEBFF 0%, #C0ACEF 100%);
-	/* Mozilla Firefox */ 
 	background-image: -moz-radial-gradient(center, circle farthest-side, #FAEBFF 0%, #C0ACEF 100%);
-	/* Opera */ 
 	background-image: -o-radial-gradient(center, circle farthest-side, #FAEBFF 0%, #C0ACEF 100%);
-	/* Webkit (Safari/Chrome 10) */ 
 	background-image: -webkit-gradient(radial, center center, 0, center center, 480, color-stop(0, #FAEBFF), color-stop(1, #C0ACEF));
-	/* Webkit (Chrome 11+) */ 
 	background-image: -webkit-radial-gradient(center, circle farthest-side, #FAEBFF 0%, #C0ACEF 100%);
-	/* Proposed W3C Markup */ 
 	background-image: radial-gradient(center, circle farthest-side, #FAEBFF 0%, #C0ACEF 100%);
 }
 
@@ -28,6 +22,9 @@ h2{
 	margin: 1em 0 .5em 0;	
 	text-shadow: 1px 1px 1px #ffffff;
 	filter: dropshadow(color=#ffffff, offx=1, offy=1);
+}
+p{
+	margin: 1em 0;	
 }
 
 .halfWidthForm{
